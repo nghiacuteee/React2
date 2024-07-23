@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841527172885",
+    "project_id": "beinnovations-7741f",
+    "storage_bucket": "beinnovations-7741f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841527172885:android:b88433f24e2b1b1d85d31c",
+        "android_client_info": {
+          "package_name": "com.beeinnovations"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAulOPA7cVVx1xVAyET496NiHfCsuEx9CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
