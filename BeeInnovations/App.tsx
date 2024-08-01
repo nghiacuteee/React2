@@ -12,7 +12,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import Router from './src/routers/Router';
-
+import AppNavigator from './src/navigators/AppNavigator';
 const App = () => {
   return (
     <>
@@ -21,6 +21,7 @@ const App = () => {
         <StatusBar barStyle="light-content" backgroundColor={colors.bgColor} />
         <NavigationContainer>
           <Router />
+            {/* <AppNavigator /> */}
         </NavigationContainer>
       </SafeAreaView>
     </>
