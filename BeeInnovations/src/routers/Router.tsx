@@ -1,3 +1,5 @@
+
+
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, { useEffect, useState } from 'react';
 import HomeScreen from '../screens/homes/HomeScreen';
@@ -6,21 +8,27 @@ import SearchScreen from '../screens/SearchScreen';
 import LoginScreen from '../auth/LoginScreen';
 import RegisterScreen from '../auth/RegisterScreen';
 import auth from '@react-native-firebase/auth';
-
+import BmiCalculatorScreen from '../screens/BmiCalculatorScreen';
+import BmiResultScreen from '../screens/BmiResultScreen';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import TabNavigator from '../navigators/TabNavigator';
 const Router = () => {
     const [isLogin, setIsLogin] = useState(false);
 
     const Stack = createNativeStackNavigator();
+
     const MainNavigator = (
         <Stack.Navigator
             screenOptions={{
                 headerShown: false,
             }}>
+            <Stack.Screen name="TabNavigator" component={TabNavigator} />
             <Stack.Screen name="HomeScreen" component={HomeScreen} />
             <Stack.Screen name="AddNewTask" component={AddNewTask} />
             <Stack.Screen name="SearchScreen" component={SearchScreen} />
         </Stack.Navigator>
     );
+
     const AuthNavigator = (
         <Stack.Navigator
             screenOptions={{

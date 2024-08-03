@@ -32,6 +32,7 @@ const AppNavigator = () => {
                     headerTitleStyle: {
                         color: 'white'
                     }
+        
                 }}
             />
         </AppStack.Navigator>
