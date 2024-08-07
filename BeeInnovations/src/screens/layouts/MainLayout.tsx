@@ -15,7 +15,7 @@ const MainLayout: React.FC<any> = ({ children }) => {
 
     return (
         <View style={[styles.container, safeAreaStyle]}>
-            <StatusBar barStyle="light-content" backgroundColor="white" />
+            <StatusBar barStyle="light-content"  />
             {children}
         </View>
     )

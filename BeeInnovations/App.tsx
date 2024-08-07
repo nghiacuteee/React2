@@ -12,7 +12,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import Router from './src/routers/Router';
-import AppNavigator from './src/navigators/AppNavigator';
+// import AppNavigator from './src/navigators/AppNavigator';
 const App = () => {
   return (
     <>
